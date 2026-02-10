@@ -2,19 +2,16 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  */
 
-package com.mycompany.filehandling;
-
+package com.mycompany.ibrahima140221257.assignment;
 
 import java.util.Scanner;
-
-
 /**
  *
  * @author iby
  */
-public class Filehandling {
+public class IbrahimA140221257Assignment{
 
-    public static void main(String[] args) throws FileNotFoundException {
+    public static void main(String[] args) {
         
         Scanner input = new Scanner(System.in); 
 
@@ -66,7 +63,7 @@ public class Filehandling {
 
   
 
-        // --- DISPLAY ORIGINAL DATA --- 
+        //DISPLAY ORIGINAL DATA
 
         System.out.println("\nTemperatures for 2023:"); 
 
@@ -88,7 +85,7 @@ public class Filehandling {
 
   
 
-        // --- BUBBLE SORT 2023 (SORT MONTH + TEMP TOGETHER) --- 
+        //BUBBLE SORT 2023 (SORT MONTH + TEMP TOGETHER)
 
         for (int i = 0; i < temps2023.length - 1; i++) { 
 
@@ -142,7 +139,7 @@ public class Filehandling {
 
   
 
-        // --- BUBBLE SORT 2024 (SORT MONTH + TEMP TOGETHER) --- 
+        //BUBBLE SORT 2024 (SORT MONTH + TEMP TOGETHER)
 
         for (int i = 0; i < temps2024.length - 1; i++) { 
 
@@ -184,7 +181,7 @@ public class Filehandling {
 
   
 
-        // --- AVERAGE CALCULATIONS --- 
+        // this is where the averages for both years is calculated
 
         int total2023 = 0; 
 
